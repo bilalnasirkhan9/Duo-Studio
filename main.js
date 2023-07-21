@@ -1,4 +1,4 @@
 const scroll = new LocomotiveScroll({
-    el: document.querySelector('[data-scroll-container]'),
+    el: document.querySelector('#main'), // Replace '#main' with the correct container ID
     smooth: true
-});
+ });
